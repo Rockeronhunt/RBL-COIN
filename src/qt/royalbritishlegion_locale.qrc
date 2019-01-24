@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/royalbritishlegion_bg.qm</file>
+        <file alias="de">locale/royalbritishlegion_de.qm</file>
+        <file alias="en">locale/royalbritishlegion_en.qm</file>
+        <file alias="es">locale/royalbritishlegion_es.qm</file>
+        <file alias="fi">locale/royalbritishlegion_fi.qm</file>
+        <file alias="fr">locale/royalbritishlegion_fr.qm</file>
+        <file alias="it">locale/royalbritishlegion_it.qm</file>
+        <file alias="ja">locale/royalbritishlegion_ja.qm</file>
+        <file alias="nl">locale/royalbritishlegion_nl.qm</file>
+        <file alias="pl">locale/royalbritishlegion_pl.qm</file>
+        <file alias="pt">locale/royalbritishlegion_pt.qm</file>
+        <file alias="ru">locale/royalbritishlegion_ru.qm</file>
+        <file alias="sk">locale/royalbritishlegion_sk.qm</file>
+        <file alias="sv">locale/royalbritishlegion_sv.qm</file>
+        <file alias="vi">locale/royalbritishlegion_vi.qm</file>
+        <file alias="zh_CN">locale/royalbritishlegion_zh_CN.qm</file>
+        <file alias="zh_TW">locale/royalbritishlegion_zh_TW.qm</file>
+    </qresource>
+</RCC>

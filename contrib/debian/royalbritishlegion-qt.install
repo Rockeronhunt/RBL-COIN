@@ -1,0 +1,6 @@
+usr/local/bin/royalbritishlegion-qt usr/bin
+share/pixmaps/royalbritishlegion32.xpm usr/share/pixmaps
+share/pixmaps/royalbritishlegion16.xpm usr/share/pixmaps
+share/pixmaps/royalbritishlegion128.png usr/share/pixmaps
+debian/royalbritishlegion-qt.desktop usr/share/applications
+debian/royalbritishlegion-qt.protocol usr/share/kde4/services/

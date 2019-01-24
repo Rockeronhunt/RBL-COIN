@@ -1,0 +1,22 @@
+[Unit]
+Description=ROYALBRITISHLEGION's distributed currency daemon
+After=network.target
+
+[Service]
+User=royalbritishlegioncore
+Group=royalbritishlegioncore
+
+Type=forking
+PIDFile=/var/lib/royalbritishlegiond/royalbritishlegiond.pid
+ExecStart=/usr/bin/royalbritishlegiond -daemon -pid=/var/lib/royalbritishlegiond/royalbritishlegiond.pid \
+-conf=/etc/royalbritishlegioncore/royalbritishlegion.conf -datadir=/var/lib/royalbritishlegiond -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

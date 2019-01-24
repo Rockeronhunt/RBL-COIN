@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ROYALBRITISHLEGION Core
+Comment=ROYALBRITISHLEGION P2P Cryptocurrency
+Comment[de]=Verbinde mit dem ROYALBRITISHLEGION peer-to-peer Netzwerk
+Comment[fr]=ROYALBRITISHLEGION, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ROYALBRITISHLEGION, eşten eşe kriptografik sanal para birimi
+Exec=royalbritishlegion-qt %u
+Terminal=false
+Type=Application
+Icon=royalbritishlegion128
+MimeType=x-scheme-handler/royalbritishlegion;
+Categories=Office;Finance;
